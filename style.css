@@ -81,3 +81,33 @@ display:grid;
 grid-template-columns: 30px 1fr;
 align-items: center;
 }
+
+.copyright-text{
+background:white;
+color:grey;
+text-align:center;
+border: 1px solid rgba(0,0,0,0.15)
+}
+
+@media all and (max-width:768px){
+
+.container{
+
+display:grid;
+grid-template-columns: repeat(2,1fr);
+justify-content: center;
+align-items:flex-start;
+}
+}
+
+
+@media all and (max-width:377px){
+
+.container{
+
+display:grid;
+grid-template-columns: 1fr;
+justify-content: center;
+align-items:flex-start;
+}
+}

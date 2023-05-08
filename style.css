@@ -1,0 +1,83 @@
+html{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+background-color: grey;
+
+display:grid;
+justify-content: center;
+align-items: end;
+min-height:100vh;
+
+}
+
+.container{
+background-color: whitesmoke;
+
+height:auto;
+padding:20px 30px;
+
+display:grid;
+grid-template-columns: 2fr 1fr 1fr 1fr;
+justify-content: center;
+align-items:flex-start;
+}
+
+.container .sec .social{
+display:grid;
+grid-template-columns: repeat(4,50px);
+grid-gap:10px;
+justify-content:flex-start;
+align-items: center;
+
+}
+.container .sec .social a{
+background-color:black;
+width:36px;
+height:36px;
+
+display:grid;
+justify-content: center;
+align-items: center;;
+}
+
+.container .sec .social a i{
+color:white;
+}
+
+.container .sec .title{
+font-size: 1.2em;
+font-weight: 700;
+margin-bottom: 10px;
+}
+.container .sec ul{
+list-style:none;
+padding:0px;
+margin:0px;
+}
+
+.container .sec a{
+text-decoration: none;
+color:black;
+
+    }
+
+.container .sec a:hover{
+background-color:rgb(165, 160, 160)
+    }
+
+.container .quicklinks ul li{
+margin-bottom:10px;
+}
+
+.container .quicklinks ul li a{
+display:inline-block;
+}
+
+.container .contact ul li{
+display:grid;
+grid-template-columns: 30px 1fr;
+align-items: center;
+}

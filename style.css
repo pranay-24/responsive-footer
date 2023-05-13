@@ -13,7 +13,7 @@ min-height:100vh;
 
 }
 
-.container{
+.footer_container{
 background-color: whitesmoke;
 
 height:auto;
@@ -25,7 +25,7 @@ justify-content: center;
 align-items:flex-start;
 }
 
-.container .sec .social{
+.footer_container .sec .social{
 display:grid;
 grid-template-columns: repeat(4,50px);
 grid-gap:10px;
@@ -33,7 +33,7 @@ justify-content:flex-start;
 align-items: center;
 
 }
-.container .sec .social a{
+.footer_container .sec .social a{
 background-color:black;
 width:36px;
 height:36px;
@@ -43,40 +43,40 @@ justify-content: center;
 align-items: center;;
 }
 
-.container .sec .social a i{
+.footer_container .sec .social a i{
 color:white;
 }
 
-.container .sec .title{
+.footer_container .sec .title{
 font-size: 1.2em;
 font-weight: 700;
 margin-bottom: 10px;
 }
-.container .sec ul{
+.footer_container .sec ul{
 list-style:none;
 padding:0px;
 margin:0px;
 }
 
-.container .sec a{
+.footer_container .sec a{
 text-decoration: none;
 color:black;
 
     }
 
-.container .sec a:hover{
+.footer_container .sec a:hover{
 background-color:rgb(165, 160, 160)
     }
 
-.container .quicklinks ul li{
+.footer_container .quicklinks ul li{
 margin-bottom:10px;
 }
 
-.container .quicklinks ul li a{
+.footer_container .quicklinks ul li a{
 display:inline-block;
 }
 
-.container .contact ul li{
+.footer_container .contact ul li{
 display:grid;
 grid-template-columns: 30px 1fr;
 align-items: center;
@@ -91,7 +91,7 @@ border: 1px solid rgba(0,0,0,0.15)
 
 @media all and (max-width:768px){
 
-.container{
+.footer_container{
 
 display:grid;
 grid-template-columns: repeat(2,1fr);
@@ -103,7 +103,7 @@ align-items:flex-start;
 
 @media all and (max-width:377px){
 
-.container{
+.footer_container{
 
 display:grid;
 grid-template-columns: 1fr;
